@@ -6,13 +6,13 @@
     <div class="flex-none">
         <ul class="menu menu-horizontal px-1">
             <li class="w-32 h-12 mr-2">
-                <a href="blah" class="w-full h-full font-medium text-xl  flex items-center justify-center">Home</a>
+                <a href="#/Home" class="w-full h-full font-medium text-xl  flex items-center justify-center">Home</a>
             </li>
             <li class="w-32 h-12 mr-2">
-                <a href="blah" class="w-full h-full font-medium text-xl  flex items-center justify-center">Docs</a>
+                <a href="#/Docs" class="w-full h-full font-medium text-xl  flex items-center justify-center">Docs</a>
             </li>
             <li class="w-32 h-12">
-                <a href="blah" class="w-full h-full font-medium text-xl  flex items-center justify-center">GitHub</a>
+                <a href="https://github.com/stratawm/stratawm" target="_blank" class="w-full h-full font-medium text-xl  flex items-center justify-center">GitHub</a>
             </li>
         </ul>
     </div>
