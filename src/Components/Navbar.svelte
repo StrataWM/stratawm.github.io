@@ -1,4 +1,4 @@
-<div class="w-screen h-[80px] bg-[#1b1d2b] bg-opacity-60 backdrop-blur-lg navbar overflow-hidden">
+<div class="w-screen h-[80px] bg-[#1b1d2b] bg-opacity-60 backdrop-blur-md navbar overflow-hidden sticky top-0">
     <div class="flex-1">
         <img src="../assets/strata_logo.png" class="w-16 h-16 ml-8 hover:scale-110 select-none logo" alt="" />
         <p class="ml-4 text-4xl font-bold title cursor-default select-none">Strata</p>
@@ -6,13 +6,14 @@
     <div class="flex-none">
         <ul class="menu menu-horizontal px-1">
             <li class="w-32 h-12 mr-2">
-                <a href="#/Home" class="w-full h-full font-medium text-xl  flex items-center justify-center">Home</a>
+                <!-- svelte-ignore a11y-invalid-attribute -->
+                <a href="#" class="w-full h-full font-semibold text-xl flex items-center justify-center">Home</a>
             </li>
             <li class="w-32 h-12 mr-2">
-                <a href="#/Docs" class="w-full h-full font-medium text-xl  flex items-center justify-center">Docs</a>
+                <a href="#/Docs" class="w-full h-full font-semibold text-xl flex items-center justify-center">Docs</a>
             </li>
             <li class="w-32 h-12">
-                <a href="https://github.com/stratawm/stratawm" target="_blank" class="w-full h-full font-medium text-xl  flex items-center justify-center">GitHub</a>
+                <a href="https://github.com/stratawm/stratawm" target="_blank" class="w-full h-full font-semibold text-xl flex items-center justify-center">GitHub</a>
             </li>
         </ul>
     </div>
