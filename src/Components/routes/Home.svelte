@@ -12,7 +12,7 @@
                         </a>
                     </button>
                     <button class="btn btn-neutral rounded-xl normal-case w-64 h-20">
-                        <a href="#/Docs" class="w-full h-full font-semibold text-xl flex items-center justify-center">
+                        <a href="https://stratawm.github.io/docs" target="_blank" class="w-full h-full font-semibold text-xl flex items-center justify-center">
                             <p>Get Started</p>
                         </a>
                     </button>

@@ -10,7 +10,7 @@
                 <a href="#" class="w-full h-full font-semibold text-xl flex items-center justify-center">Home</a>
             </li>
             <li class="w-32 h-12 mr-2">
-                <a href="#/Docs" class="w-full h-full font-semibold text-xl flex items-center justify-center">Docs</a>
+                <a href="https://stratawm.github.io/docs" target="_blank" class="w-full h-full font-semibold text-xl flex items-center justify-center">Docs</a>
             </li>
             <li class="w-32 h-12">
                 <a href="https://github.com/stratawm/stratawm" target="_blank" class="w-full h-full font-semibold text-xl flex items-center justify-center">GitHub</a>

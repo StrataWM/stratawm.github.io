@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "deploy": "yarn gh-pages -d dist"
+    "deploy": "yarn build && yarn gh-pages -d dist"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.4.2",
