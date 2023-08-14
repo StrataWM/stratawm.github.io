@@ -1,18 +1,44 @@
+<script lang="ts">
+    import Fa from 'svelte-fa'
+    import { faRocket } from '@fortawesome/free-solid-svg-icons'
+    import { faGithub } from '@fortawesome/free-brands-svg-icons';
+</script>
+
 <div class="w-screen h-screen flex flex-col">
-    <div class="first_page w-screen h-[calc(100%-80px)] overflow-y-auto overflow-x-hidden px-16 flex flex-col items-center">
+    <div class="first_page w-screen h-screen overflow-y-auto overflow-x-hidden px-16 flex flex-col items-center">
         <div class="w-full h-full overflow-hidden flex flex-col items-center justify-center">
-            <img src="./assets/strata_logo.png" alt="Strata Logo" class="logo"/>
+            <img src="./assets/strata_logo.png" alt="Strata Logo"/>
             <p class="text-[120px] font-extrabold logo_text -m-12">Strata</p>
-            <p class="text-4xl font-bold mt-8 mr-4 text-center text-[#c8d3f5]">A Modular, Dynamic and Sleek Wayland Compositor</p>
+            <div class="text-4xl font-light mt-8 mr-4 text-center text-[#c8d3f5] flex">
+                <p class="mr-2">A</p>
+                <p class="font-bold features">Cutting-Edge</p>
+                <p class="mr-2">, </p>
+                <p class="mr-2 font-bold features">Robust</p>
+                <p class="mr-2"> and </p>
+                <p class="mr-2 font-bold features">Sleek</p>
+                <p class="">Wayland Compositor.</p>
+            </div>
             <div class="w-full h-auto flex flex-row items-center justify-center mt-12">
                 <ul class="menu menu-horizontal px-1">
-                    <button class="btn btn-neutral rounded-xl normal-case w-64 h-20 mr-8">
+                    <button class="btn btn-neutral rounded-xl normal-case w-64 h-20 mr-8 flex items-center justify-center">
                         <a href="https://github.com/stratawm/stratawm" target="_blank" class="w-full h-full font-semibold text-xl flex items-center justify-center">
+                            <Fa 
+                                icon={faGithub} 
+                                scale={1.3}
+                                class="m-4"
+                                color="#c8d3f5"
+                            />
                             <p>GitHub</p>
                         </a>
                     </button>
-                    <button class="btn btn-neutral rounded-xl normal-case w-64 h-20">
+                    <button class="btn btn-neutral rounded-xl normal-case w-64 h-20 flex items-center justify-center">
                         <a href="https://stratawm.github.io/docs" target="_blank" class="w-full h-full font-semibold text-xl flex items-center justify-center">
+                            <Fa 
+                                icon={faRocket} 
+                                scale={1.3}
+                                class="m-4"
+                                color="#c8d3f5"
+                            />
                             <p>Get Started</p>
                         </a>
                     </button>
@@ -25,55 +51,19 @@
 
 <style>
     .logo_text {
-        background: -webkit-linear-gradient(45deg, #2196F3, #C099FF);
+        background: -webkit-linear-gradient(45deg, #C099FF, #2196F3);
         background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
-    .logo {
-        animation: bounce 2.50s ease-in-out infinite;
+    .features {
+        background: -webkit-linear-gradient(45deg, #C099FF, #2196F3);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
-    @keyframes bounce {
-        0%, 100% {
-            transform: translateY(0);
-        }
-        50% {
-            transform: translateY(-60px);
-        }
+    .btn-icon {
+        margin-right: 128px;
     }
 
-    .initial_btn {
-        width: 240px;
-        height: 56px;
-        border: 1px solid #c099ff;
-        border-radius: 10px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        transition: all 0.15s;
-    }
-
-    .initial_btn:hover {
-        background-color: rgba(255, 255, 255, 0.15);
-        color: #222436;
-    }
-
-    .initial_btn:active {
-        scale: 0.9;
-    }
-
-    .btn_icon {
-        filter: invert(82%) sepia(6%) saturate(1225%) hue-rotate(191deg) brightness(103%) contrast(92%);
-    }
-
-    .initial_btn:hover > .btn_icon {
-        filter: invert(9%) sepia(4%) saturate(6322%) hue-rotate(197deg) brightness(100%) contrast(87%);
-
-    }
-
-    .initial_btn:hover > p {
-        color: #c8d3f5;
-    }
 </style>
