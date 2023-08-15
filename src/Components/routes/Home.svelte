@@ -85,8 +85,8 @@
 
     .banner-scroll-down-arrow span {
         display: block;
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         border-bottom: 2px solid #C099FF;
         border-right: 2px solid #C099FF;
         border-radius: 2px;
@@ -116,53 +116,4 @@
             transform: rotate(45deg) translate(15px, 15px);
         }  
     }
-
-    .arrows {
-        width: 60px;
-        height: 72px;
-        position: absolute;
-        left: 50%;
-        margin-left: -30px;
-        bottom: 60px;
-    }
-
-    .arrows path {
-        stroke: #C099FF;
-        fill: transparent;
-        stroke-width: 1px;	
-        animation: arrow 2s infinite;
-        -webkit-animation: arrow 2s infinite; 
-    }
-
-    @keyframes arrow
-    {
-        0% { opacity:0 }
-        40% { opacity:1 }
-        80% { opacity:0 }
-        100% { opacity:0 }
-    }
-
-    @-webkit-keyframes arrow /*Safari and Chrome*/
-    {
-        0% { opacity:0 }
-        40% { opacity:1 }
-        80% { opacity:0 }
-        100% { opacity:0 }
-    }
-
-    .arrows path.a1 {
-        animation-delay:-1s;
-        -webkit-animation-delay:-1s; 
-    }
-
-    .arrows path.a2 {
-        animation-delay:-0.5s;
-        -webkit-animation-delay:-0.5s;
-    }
-
-    .arrows path.a3 {	
-        animation-delay:0s;
-        -webkit-animation-delay:0s; 
-    }
-
 </style>
