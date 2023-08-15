@@ -21,7 +21,7 @@
             <div class="w-full h-auto flex flex-col items-center justify-center mt-12">
                 <ul class="menu menu-horizontal px-1">
                     <button class="btn btn-outline btn-accent rounded-xl normal-case w-64 h-20 flex items-center justify-center mr-8">
-                        <a href="https://stratawm.github.io/docs/stratawm/compile_from_source.html" target="_blank" class="w-full h-full font-bold text-xl flex items-center justify-center">
+                        <a href="https://stratawm.github.io/docs/strata/compile_from_source.html" target="_blank" class="w-full h-full font-bold text-xl flex items-center justify-center">
                             <Fa 
                                 icon={faRocket} 
                                 scale={1.3}
