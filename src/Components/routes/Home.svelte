@@ -1,6 +1,6 @@
 <script lang="ts">
     import Fa from 'svelte-fa'
-    import { faRocket } from '@fortawesome/free-solid-svg-icons'
+    import { faRocket, faBook } from '@fortawesome/free-solid-svg-icons'
     import { faGithub } from '@fortawesome/free-brands-svg-icons';
 </script>
 
@@ -18,21 +18,10 @@
                 <p class="mr-2 font-bold features">Sleek</p>
                 <p class="">Wayland Compositor.</p>
             </div>
-            <div class="w-full h-auto flex flex-row items-center justify-center mt-12">
+            <div class="w-full h-auto flex flex-col items-center justify-center mt-12">
                 <ul class="menu menu-horizontal px-1">
-                    <button class="btn btn-neutral rounded-xl normal-case w-64 h-20 mr-8 flex items-center justify-center">
-                        <a href="https://github.com/stratawm/stratawm" target="_blank" class="w-full h-full font-semibold text-xl flex items-center justify-center">
-                            <Fa 
-                                icon={faGithub} 
-                                scale={1.3}
-                                class="m-4"
-                                color="#c8d3f5"
-                            />
-                            <p>GitHub</p>
-                        </a>
-                    </button>
-                    <button class="btn btn-neutral rounded-xl normal-case w-64 h-20 flex items-center justify-center">
-                        <a href="https://stratawm.github.io/docs" target="_blank" class="w-full h-full font-semibold text-xl flex items-center justify-center">
+                    <button class="btn btn-outline btn-accent rounded-xl normal-case w-64 h-20 flex items-center justify-center mr-8">
+                        <a href="https://stratawm.github.io/docs/stratawm/compile_from_source.html" target="_blank" class="w-full h-full font-bold text-xl flex items-center justify-center">
                             <Fa 
                                 icon={faRocket} 
                                 scale={1.3}
@@ -42,7 +31,34 @@
                             <p>Get Started</p>
                         </a>
                     </button>
+                    <button class="btn btn-outline btn-secondary rounded-xl normal-case w-64 h-20 flex items-center justify-center mr-8">
+                        <a href="https://stratawm.github.io/docs/" target="_blank" class="w-full h-full font-bold text-xl flex items-center justify-center">
+                            <Fa 
+                                icon={faBook} 
+                                scale={1.3}
+                                class="m-4"
+                                color="#c8d3f5"
+                            />
+                            <p>Documentation</p>
+                        </a>
+                    </button>
+                    <button class="btn btn-outline btn-primary rounded-xl normal-case w-64 h-20 flex items-center justify-center">
+                        <a href="https://github.com/stratawm/stratawm" target="_blank" class="w-full h-full font-bold text-xl flex items-center justify-center">
+                            <Fa 
+                                icon={faGithub} 
+                                scale={1.3}
+                                class="m-4"
+                                color="#c8d3f5"
+                            />
+                            <p>GitHub</p>
+                        </a>
+                    </button>
                 </ul>
+            </div>
+            <div class="banner-scroll-down-arrow">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </div>
@@ -62,8 +78,91 @@
         -webkit-text-fill-color: transparent;
     }
 
-    .btn-icon {
-        margin-right: 128px;
+    .banner-scroll-down-arrow {
+        position: absolute;
+        bottom: 80px;
+    }
+
+    .banner-scroll-down-arrow span {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-bottom: 2px solid #C099FF;
+        border-right: 2px solid #C099FF;
+        border-radius: 2px;
+        transform: rotate(45deg);
+        margin: -16px;
+        animation: banner-scroll-down-arrow-animation 4s infinite;
+    }
+
+    .banner-scroll-down-arrow span:nth-child(2) {
+        animation-delay: -.2s;
+    }
+
+    .banner-scroll-down-arrow span:nth-child(3) {
+        animation-delay: -.4s;
+    }
+
+    @keyframes banner-scroll-down-arrow-animation {
+        0% {
+            opacity: 0;
+            transform: rotate(45deg) translate(-15px, -15px);
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+            transform: rotate(45deg) translate(15px, 15px);
+        }  
+    }
+
+    .arrows {
+        width: 60px;
+        height: 72px;
+        position: absolute;
+        left: 50%;
+        margin-left: -30px;
+        bottom: 60px;
+    }
+
+    .arrows path {
+        stroke: #C099FF;
+        fill: transparent;
+        stroke-width: 1px;	
+        animation: arrow 2s infinite;
+        -webkit-animation: arrow 2s infinite; 
+    }
+
+    @keyframes arrow
+    {
+        0% { opacity:0 }
+        40% { opacity:1 }
+        80% { opacity:0 }
+        100% { opacity:0 }
+    }
+
+    @-webkit-keyframes arrow /*Safari and Chrome*/
+    {
+        0% { opacity:0 }
+        40% { opacity:1 }
+        80% { opacity:0 }
+        100% { opacity:0 }
+    }
+
+    .arrows path.a1 {
+        animation-delay:-1s;
+        -webkit-animation-delay:-1s; 
+    }
+
+    .arrows path.a2 {
+        animation-delay:-0.5s;
+        -webkit-animation-delay:-0.5s;
+    }
+
+    .arrows path.a3 {	
+        animation-delay:0s;
+        -webkit-animation-delay:0s; 
     }
 
 </style>
