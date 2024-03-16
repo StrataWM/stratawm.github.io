@@ -1,11 +1,20 @@
+<script setup>
+useHead({
+  title: "StrataWM"
+})
+</script>
+
 <template>
-  <div class="min-w-screen min-h-screen bg-[#181825]">
+  <div class="antialiased min-w-screen min-h-screen bg-mantle">
     <Navbar />
   </div>
 </template>
 
 <style>
-  body {
+  * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
   }
 </style>
