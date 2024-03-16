@@ -38,11 +38,10 @@ body {
   border-radius: 40px;
   border: 6px solid transparent;
   background-clip: padding-box;
-  transition: border-width 0.5s ease-in-out;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   border: 5px solid transparent;
-  background-color: #f38ba8;
+  background-color: #cba6f7;
 }
 </style>
