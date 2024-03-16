@@ -5,16 +5,22 @@ useHead({
 </script>
 
 <template>
-  <div class="antialiased min-w-screen min-h-screen bg-mantle">
+  <div class="antialiased w-screen h-screen bg-mantle overflow-x-hidden overflow-y-scroll">
     <Navbar />
+    <NuxtPage />
   </div>
 </template>
 
 <style>
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+}
 </style>
