@@ -25,6 +25,14 @@
                 <NuxtImg src="/strata_logo.png" width="236px"
                     class="logo transition ease-in-out duration-384 absolute top-0 left-0 -translate-y-2/4 -translate-x-2/4" />
             </div>
+            <div class="flex flex-col items-center justify-center mt-26 z-300">
+                <span class="fg-text text-4xl font-inter font-500 text-wrap w-[70%] text-center line-height-[3.5rem]">A
+                    <span class="border-b-3 p-b-1 border-solid border-[#f38ba8] fg-red font-bold">Cutting-Edge</span>,
+                    <span class="border-b-3 p-b-1 border-solid border-[#f38ba8] fg-red font-bold">Robust</span> and
+                    <span class="border-b-3 p-b-1 border-solid border-[#f38ba8] fg-red font-bold">Sleek</span>
+                    Wayland
+                    compositor</span>
+            </div>
         </div>
     </div>
 </template>

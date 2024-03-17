@@ -33,7 +33,7 @@ export default defineConfig({
         ['fg-rosewater', {color: "#f5e0dc"}],
         ['fg-flamingo', {color: "#f2cdcd"}],
         ['fg-pink', {color: "#f2cdcd"}],
-        ['fg-mauve', {color: "#f2cdcd"}],
+        ['fg-mauve', {color: "#cba6f7"}],
         ['fg-red', {color: "#f38ba8"}],
         ['fg-maroon', {color: "#eba0ac"}],
         ['fg-peach', {color: "#fab387"}],
