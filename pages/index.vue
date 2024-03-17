@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col fg-text w-full min-h-screen">
+    <div class="w-full min-h-screen">
         <div class="gradient-bg">
             <svg xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -17,16 +17,14 @@
                 <div class="circle3"></div>
             </div>
         </div>
+        <div class="flex flex-col items-center justify-center w-screen h-screen absolute top-0 left-0 z-128">
+            <span class="fg-text text-2xl">Hello</span>
+        </div>
     </div>
 </template>
 
 <style>
 :root {
-    --color-bg1: #E384FF;
-    --color-bg2: #5800FF;
-    --color1: 18, 113, 255;
-    --color2: 221, 74, 255;
-    --color-interactive: 140, 100, 255;
     --circle-size: 100%;
     --blending: hard-light;
 }
@@ -88,7 +86,7 @@
 }
 
 .gradients-cont {
-    filter: url(#_svg-filter) blur(40px);
+    filter: url(#_svg-filter) blur(100px);
     width: 100%;
     height: 100%;
 }
