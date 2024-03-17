@@ -1,58 +1,60 @@
 <template>
-    <div class="w-full min-h-screen relative select-none">
-        <div class="gradient-bg">
-            <svg xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                    <filter id="_svg-filter">
-                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
-                            result="_svg-filter" />
-                        <feBlend in="SourceGraphic" in2="_svg-filter" />
-                    </filter>
-                </defs>
-            </svg>
-            <div class="gradients-cont">
-                <div class="circle1"></div>
-                <div class="circle2"></div>
-                <div class="circle3"></div>
-                <div class="circle4"></div>
-            </div>
-        </div>
-        <div class="flex flex-col items-center justify-center w-screen h-screen absolute top-0 left-0 ">
-            <div class="relative bg-red logo-cont">
-                <NuxtImg src="/strata_logo.png" width="236px"
-                    class="logo transition ease-in-out duration-384 absolute top-0 left-0 -translate-y-2/4 -translate-x-2/4" />
-            </div>
-            <div class="flex flex-col items-center justify-center mt-26 z-300 select-none">
-                <span class="fg-text text-4xl font-inter font-500 text-wrap w-[70%] text-center line-height-[3rem]">
-                    <span class="fg-red font-bold">Cutting-Edge</span>,
-                    <span class="fg-red font-bold">Robust</span> and
-                    <span class="fg-red font-bold">Sleek</span>
-                    Wayland
-                    compositor</span>
-            </div>
-            <div class="flex items-center justify-center mt-8 z-300 select-none">
-                <div
-                    class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#f38ba8] hover:bg-red w-[220px] mr-4">
-                    <a href="https://stratawm.github.io/strata"
-                        class="w-full h-full decoration-none fg-red transition ease-in-out duration-350 font-inter text-lg font-500 flex items-center justify-center rounded-xl hover:fg-crust">
-                        <Icon name="ic:baseline-rocket-launch" size="32px" class="mr-2"></Icon>Get
-                        Started
-                    </a>
+    <div class="w-full h-full">
+        <div class="w-full min-h-screen relative select-none">
+            <div class="gradient-bg">
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="_svg-filter">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+                                result="_svg-filter" />
+                            <feBlend in="SourceGraphic" in2="_svg-filter" />
+                        </filter>
+                    </defs>
+                </svg>
+                <div class="gradients-cont">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+                    <div class="circle4"></div>
                 </div>
-                <div
-                    class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#cba6f7] hover:bg-mauve w-[220px] mr-4">
-                    <a href="https://stratawm.github.io/strata"
-                        class="w-full h-full decoration-none fg-mauve transition ease-in-out duration-350 font-inter text-lg font-500 flex items-center justify-center rounded-xl hover:fg-crust">
-                        <Icon name="material-symbols:book-2" size="32px" class="mr-2"></Icon>Documentation
-                    </a>
+            </div>
+            <div class="flex flex-col items-center justify-center w-screen h-screen absolute top-0 left-0 ">
+                <div class="relative bg-red logo-cont">
+                    <NuxtImg src="/strata_logo.png" width="236px"
+                        class="logo transition ease-in-out duration-384 absolute top-0 left-0 -translate-y-2/4 -translate-x-2/4" />
                 </div>
-                <div
-                    class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#cdd6f4] hover:bg-text w-[220px]">
-                    <a href="https://stratawm.github.io/strata"
-                        class="w-full h-full decoration-none fg-text transition ease-in-out duration-350 font-inter text-lg font-500 flex items-center justify-center rounded-xl hover:fg-crust">
-                        <Icon name="mdi:github" size="32px" class="mr-2"></Icon>GitHub
-                    </a>
+                <div class="flex flex-col items-center justify-center mt-32 z-300 select-none">
+                    <span class="fg-text text-4xl font-inter font-500 text-wrap w-[70%] text-center line-height-[3rem]">
+                        <span class="fg-red font-bold">Cutting-Edge</span>,
+                        <span class="fg-red font-bold">Robust</span> and
+                        <span class="fg-red font-bold">Sleek</span>
+                        Wayland
+                        compositor</span>
+                </div>
+                <div class="flex items-center justify-center mt-8 z-300 select-none">
+                    <div
+                        class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#f38ba8] hover:bg-red w-[220px] mr-4">
+                        <a href="https://stratawm.github.io/strata"
+                            class="w-full h-full decoration-none fg-red transition ease-in-out duration-350 font-inter text-lg font-500 flex items-center justify-center rounded-xl hover:fg-crust">
+                            <Icon name="ic:baseline-rocket-launch" size="32px" class="mr-2"></Icon>Get
+                            Started
+                        </a>
+                    </div>
+                    <div
+                        class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#cba6f7] hover:bg-mauve w-[220px] mr-4">
+                        <a href="https://stratawm.github.io/strata"
+                            class="w-full h-full decoration-none fg-mauve transition ease-in-out duration-350 font-inter text-lg font-500 flex items-center justify-center rounded-xl hover:fg-crust">
+                            <Icon name="material-symbols:book-2" size="32px" class="mr-2"></Icon>Documentation
+                        </a>
+                    </div>
+                    <div
+                        class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#cdd6f4] hover:bg-text w-[220px]">
+                        <a href="https://stratawm.github.io/strata"
+                            class="w-full h-full decoration-none fg-text transition ease-in-out duration-350 font-inter text-lg font-500 flex items-center justify-center rounded-xl hover:fg-crust">
+                            <Icon name="mdi:github" size="32px" class="mr-2"></Icon>GitHub
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
