@@ -58,10 +58,14 @@
                 </div>
             </div>
         </div>
-        <div class="w-full min-h-screen relative select-auto"></div>
+        <div class="w-full min-h-screen relative select-auto">
+            <div class="grid-bkg" />
+            <div class="w-full h-full absolute top-0 left-0 flex flex-col gap-12"></div>
+        </div>
     </div>
 </template>
 
+<!-- Section 1 -->
 <style>
 @keyframes logo {
     0% {
@@ -210,5 +214,19 @@
     animation: moveInCircle 20s linear infinite;
 
     opacity: 1;
+}
+</style>
+
+<!-- Section 2 -->
+<style scoped>
+.grid-bkg {
+    width: 100%;
+    height: 100vh;
+    background-image:
+        linear-gradient(to right, rgba(88, 0, 255, 0.8) 2px, transparent 2px),
+        linear-gradient(to bottom, rgba(88, 0, 255, 0.8) 2px, transparent 2px);
+    background-size: 2.5rem 2.5rem;
+    background-position: center center;
+    background-color: #11111b;
 }
 </style>
