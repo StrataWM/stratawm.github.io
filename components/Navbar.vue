@@ -5,7 +5,7 @@
             <div class="relative bg-red logo-cont">
                 <div class="w-[40px] h-[40px] rounded-full logo-bkg absolute top-0 left-0 -translate-y-2/4" />
                 <NuxtImg src="/strata_logo.png" width="40px"
-                    class="logo hover:scale-[1.2] transition ease-in-out duration-384 active:scale-[0.9] absolute top-0 left-0 -translate-y-2/4" />
+                    class="hover:scale-[1.2] transition ease-in-out duration-384 active:scale-[0.9] absolute top-0 left-0 -translate-y-2/4" />
             </div>
         </div>
         <div class="ml-auto h-full flex items-center content-center">

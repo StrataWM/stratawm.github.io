@@ -19,12 +19,46 @@
             </div>
         </div>
         <div class="flex flex-col items-center justify-center w-screen h-screen absolute top-0 left-0 ">
-            <span class="fg-text text-2xl">Hello</span>
+            <div class="relative bg-red logo-cont">
+                <div
+                    class="w-[284px] h-[284px] rounded-full logo-bkg absolute top-0 left-0 -translate-y-2/4 -translate-x-2/4" />
+                <NuxtImg src="/strata_logo.png" width="236px"
+                    class="logo transition ease-in-out duration-384 absolute top-0 left-0 -translate-y-2/4 -translate-x-2/4" />
+            </div>
         </div>
     </div>
 </template>
 
 <style>
+@keyframes logo {
+    0% {
+        transform: translate(-50%, -50%);
+    }
+
+    50% {
+        transform: translate(-50%, -60%);
+    }
+
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+
+.logo-bkg {
+    background-image: linear-gradient(35deg, #E384FF, 20%, #5800FF);
+    filter: blur(150px);
+    opacity: 0.5;
+    transition: opacity 386ms ease-in-out;
+}
+
+.logo-cont:hover .logo-bkg {
+    opacity: 1;
+}
+
+.logo {
+    animation: logo 5s ease-in infinite;
+}
+
 :root {
     --circle-size: 60%;
     --blending: hard-light;
