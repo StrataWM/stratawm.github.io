@@ -15,9 +15,6 @@
                 <div class="circle1"></div>
                 <div class="circle2"></div>
                 <div class="circle3"></div>
-                <div class="circle4"></div>
-                <div class="circle5"></div>
-                <div class="circle_interactive"></div>
             </div>
         </div>
     </div>
@@ -25,15 +22,12 @@
 
 <style>
 :root {
-    --color-bg1: rgb(108, 0, 162);
-    --color-bg2: rgb(0, 17, 82);
+    --color-bg1: #E384FF;
+    --color-bg2: #5800FF;
     --color1: 18, 113, 255;
     --color2: 221, 74, 255;
-    --color3: 100, 220, 255;
-    --color4: 200, 50, 50;
-    --color5: 180, 180, 50;
     --color-interactive: 140, 100, 255;
-    --circle-size: 80%;
+    --circle-size: 100%;
     --blending: hard-light;
 }
 
@@ -84,7 +78,7 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(40deg, var(--color-bg1), var(--color-bg2));
+    background: rgba(24, 24, 37, 0.8);
     top: 0;
     left: 0;
 }
@@ -101,7 +95,7 @@
 
 .circle1 {
     position: absolute;
-    background: radial-gradient(circle at center, rgba(var(--color1), 0.8) 0, rgba(var(--color1), 0) 50%) no-repeat;
+    background: radial-gradient(circle at center, rgba(88, 0, 255, 0.8) 0, rgba(88, 0, 255, 0) 50%) no-repeat;
     mix-blend-mode: var(--blending);
 
     width: var(--circle-size);
@@ -117,7 +111,7 @@
 
 .circle2 {
     position: absolute;
-    background: radial-gradient(circle at center, rgba(var(--color2), 0.8) 0, rgba(var(--color2), 0) 50%) no-repeat;
+    background: radial-gradient(circle at center, rgba(88, 0, 255, 0.8) 0, rgba(88, 0, 255, 0) 50%) no-repeat;
     mix-blend-mode: var(--blending);
 
     width: var(--circle-size);
@@ -133,7 +127,7 @@
 
 .circle3 {
     position: absolute;
-    background: radial-gradient(circle at center, rgba(var(--color3), 0.8) 0, rgba(var(--color3), 0) 50%) no-repeat;
+    background: radial-gradient(circle at center, rgba(88, 0, 255, 0.8) 0, rgba(88, 0, 255, 0) 50%) no-repeat;
     mix-blend-mode: var(--blending);
 
     width: var(--circle-size);
@@ -145,50 +139,5 @@
     animation: moveInCircle 40s linear infinite;
 
     opacity: 1;
-}
-
-.circle4 {
-    position: absolute;
-    background: radial-gradient(circle at center, rgba(var(--color4), 0.8) 0, rgba(var(--color4), 0) 50%) no-repeat;
-    mix-blend-mode: var(--blending);
-
-    width: var(--circle-size);
-    height: var(--circle-size);
-    top: calc(50% - var(--circle-size) / 2);
-    left: calc(50% - var(--circle-size) / 2);
-
-    transform-origin: calc(50% - 200px);
-    animation: moveHorizontal 40s ease infinite;
-
-    opacity: 0.7;
-}
-
-.circle5 {
-    position: absolute;
-    background: radial-gradient(circle at center, rgba(var(--color5), 0.8) 0, rgba(var(--color5), 0) 50%) no-repeat;
-    mix-blend-mode: var(--blending);
-
-    width: calc(var(--circle-size) * 2);
-    height: calc(var(--circle-size) * 2);
-    top: calc(50% - var(--circle-size));
-    left: calc(50% - var(--circle-size));
-
-    transform-origin: calc(50% - 800px) calc(50% + 200px);
-    animation: moveInCircle 20s ease infinite;
-
-    opacity: 1;
-}
-
-.circle_interactive {
-    position: absolute;
-    background: radial-gradient(circle at center, rgba(var(--color-interactive), 0.8) 0, rgba(var(--color-interactive), 0) 50%) no-repeat;
-    mix-blend-mode: var(--blending);
-
-    width: 100%;
-    height: 100%;
-    top: -50%;
-    left: -50%;
-
-    opacity: 0.7;
 }
 </style>
