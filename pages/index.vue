@@ -25,16 +25,17 @@
                         class="logo transition ease-in-out duration-384 absolute top-0 left-0 -translate-y-2/4 -translate-x-2/4" />
                 </div>
                 <div class="flex flex-col items-center justify-center mt-32 z-50 select-none">
-                    <span class="fg-text text-4xl font-inter font-500 text-wrap w-[70%] text-center line-height-[3rem]">
+                    <span
+                        class="fg-text text-4xl font-inter font-500 text-wrap w-[70%] sm:w-[90%] text-center line-height-[3rem]">
                         <span class="fg-red font-bold">Cutting-Edge</span>,
                         <span class="fg-red font-bold">Robust</span> and
                         <span class="fg-red font-bold">Sleek</span>
                         Wayland
                         compositor</span>
                 </div>
-                <div class="flex items-center justify-center mt-8 z-50 select-none">
+                <div class="flex items-center justify-center mt-8 z-50 select-none flex-wrap">
                     <div
-                        class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#f38ba8] hover:bg-red w-[220px] mr-4">
+                        class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#f38ba8] hover:bg-red w-[220px] mr-4 mb-4 md:mb-0">
                         <a href="https://stratawm.github.io/strata"
                             class="w-full h-full decoration-none fg-red transition ease-in-out duration-350 font-inter text-lg font-500 flex items-center justify-center rounded-xl hover:fg-crust">
                             <Icon name="ic:baseline-rocket-launch" size="32px" class="mr-2"></Icon>Get
@@ -42,7 +43,7 @@
                         </a>
                     </div>
                     <div
-                        class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#cba6f7] hover:bg-mauve w-[220px] mr-4">
+                        class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#cba6f7] hover:bg-mauve w-[220px] mr-4 sm:mb-4 md:mb-0">
                         <a href="https://stratawm.github.io/strata"
                             class="w-full h-full decoration-none fg-mauve transition ease-in-out duration-350 font-inter text-lg font-500 flex items-center justify-center rounded-xl hover:fg-crust">
                             <Icon name="material-symbols:book-2" size="32px" class="mr-2"></Icon>Documentation
@@ -60,7 +61,9 @@
         </div>
         <div class="w-full min-h-screen relative select-auto">
             <div class="grid-bkg" />
-            <div class="w-full h-full absolute top-0 left-0 flex flex-col gap-12"></div>
+            <div class="w-full h-full absolute top-0 left-0 flex flex-col gap-12 py-16 px-[10%] items-center">
+                <div class="w-[100%] h-sm bg-transparent backdrop-filter backdrop-blur-sm backdrop-saturate-150"></div>
+            </div>
         </div>
     </div>
 </template>
@@ -225,7 +228,7 @@
     background-image:
         linear-gradient(to right, rgba(88, 0, 255, 0.8) 2px, transparent 2px),
         linear-gradient(to bottom, rgba(88, 0, 255, 0.8) 2px, transparent 2px);
-    background-size: 2.5rem 2.5rem;
+    background-size: 3.5rem 3.5rem;
     background-position: center center;
     background-color: #11111b;
 }
