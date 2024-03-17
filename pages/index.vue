@@ -25,7 +25,7 @@
 
 <style>
 :root {
-    --circle-size: 100%;
+    --circle-size: 60%;
     --blending: hard-light;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .gradients-cont {
-    filter: url(#_svg-filter) blur(100px);
+    filter: url(#_svg-filter) blur(136px);
     width: 100%;
     height: 100%;
 }
