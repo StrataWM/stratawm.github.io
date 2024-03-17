@@ -19,7 +19,6 @@ useHead({
   border: 0;
 }
 
-html,
 body {
   overflow: hidden;
 }

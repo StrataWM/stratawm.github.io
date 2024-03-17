@@ -1,6 +1,6 @@
 <template>
     <div
-        class="w-full h-[56px] backdrop-filter backdrop-blur-sm backdrop-saturate-150 flex items-center content-between px-8 select-none z-100 absolute top-0 left-0">
+        class="w-full h-[56px] backdrop-filter backdrop-blur-sm backdrop-saturate-150 flex items-center content-between px-8 select-none z-100 fixed top-0 left-0">
         <div class="fg-text mr-auto flex h-full items-center justify-center relative items-center">
             <div class="relative bg-red logo-cont">
                 <div class="w-[40px] h-[40px] rounded-full logo-bkg absolute top-0 left-0 -translate-y-2/4" />

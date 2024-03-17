@@ -24,7 +24,7 @@
                     <NuxtImg src="/strata_logo.png" width="236px"
                         class="logo transition ease-in-out duration-384 absolute top-0 left-0 -translate-y-2/4 -translate-x-2/4" />
                 </div>
-                <div class="flex flex-col items-center justify-center mt-32 z-300 select-none">
+                <div class="flex flex-col items-center justify-center mt-32 z-50 select-none">
                     <span class="fg-text text-4xl font-inter font-500 text-wrap w-[70%] text-center line-height-[3rem]">
                         <span class="fg-red font-bold">Cutting-Edge</span>,
                         <span class="fg-red font-bold">Robust</span> and
@@ -32,7 +32,7 @@
                         Wayland
                         compositor</span>
                 </div>
-                <div class="flex items-center justify-center mt-8 z-300 select-none">
+                <div class="flex items-center justify-center mt-8 z-50 select-none">
                     <div
                         class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#f38ba8] hover:bg-red w-[220px] mr-4">
                         <a href="https://stratawm.github.io/strata"
@@ -58,6 +58,7 @@
                 </div>
             </div>
         </div>
+        <div class="w-full min-h-screen relative select-auto"></div>
     </div>
 </template>
 
