@@ -5,7 +5,7 @@ useHead({
 </script>
 
 <template>
-  <div class="antialiased w-screen h-screen bg-mantle overflow-x-hidden overflow-y-scroll">
+  <div class="antialiased w-screen h-screen bg-mantle overflow-x-hidden overflow-y-auto relative">
     <Navbar />
     <NuxtPage />
   </div>
