@@ -11,10 +11,10 @@
         <div class="ml-auto h-full flex items-center content-center">
             <div class="flex gap-3">
                 <a href="https://stratawm.github.io/strata"
-                    class="decoration-none fg-text hover:fg-red transition ease-in-out duration-300 font-roboto text-sm font-500">Get
+                    class="decoration-none fg-text hover:fg-red transition ease-in-out duration-300 font-inter text-sm font-500">Get
                     Started</a>
                 <a href="https://stratawm.github.io/strata/configuration/basics"
-                    class="decoration-none fg-text hover:fg-red transition ease-in-out duration-300 font-roboto text-sm font-500">Configuration</a>
+                    class="decoration-none fg-text hover:fg-red transition ease-in-out duration-300 font-inter text-sm font-500">Configuration</a>
             </div>
             <div class="w-[1px] h-[24px] ml-3 bg-surface0 rounded-lg" />
             <div class="flex gap-3 ml-3 h-full items-center justify-center">

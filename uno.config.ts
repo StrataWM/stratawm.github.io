@@ -57,6 +57,7 @@ export default defineConfig({
         ['fg-mantle', {color: "#181825"}],
         ['fg-crust', { color: "#11111b" }],
         // Fonts
-        ['font-roboto', {'font-family': '"Roboto"'}]
+        ['font-roboto', {'font-family': '"Roboto"'}],
+        ['font-inter', {'font-family': '"Inter"'}]
     ]
 })
