@@ -31,6 +31,30 @@
                     Wayland
                     compositor</span>
             </div>
+            <div class="flex items-center justify-center mt-8 z-300 select-none">
+                <div
+                    class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#f38ba8] hover:bg-red w-[220px] mr-4">
+                    <a href="https://stratawm.github.io/strata"
+                        class="w-full h-full decoration-none fg-red transition ease-in-out duration-350 font-inter text-lg font-500 flex items-center justify-center rounded-xl hover:fg-crust">
+                        <Icon name="ic:baseline-rocket-launch" size="32px" class="mr-2"></Icon>Get
+                        Started
+                    </a>
+                </div>
+                <div
+                    class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#cba6f7] hover:bg-mauve w-[220px] mr-4">
+                    <a href="https://stratawm.github.io/strata"
+                        class="w-full h-full decoration-none fg-mauve transition ease-in-out duration-350 font-inter text-lg font-500 flex items-center justify-center rounded-xl hover:fg-crust">
+                        <Icon name="material-symbols:book-2" size="32px" class="mr-2"></Icon>Documentation
+                    </a>
+                </div>
+                <div
+                    class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#cdd6f4] hover:bg-text w-[220px]">
+                    <a href="https://stratawm.github.io/strata"
+                        class="w-full h-full decoration-none fg-text transition ease-in-out duration-350 font-inter text-lg font-500 flex items-center justify-center rounded-xl hover:fg-crust">
+                        <Icon name="mdi:github" size="32px" class="mr-2"></Icon>GitHub
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -42,7 +66,7 @@
     }
 
     50% {
-        transform: translate(-50%, -60%);
+        transform: translate(-50%, -55%);
     }
 
     100% {
@@ -132,7 +156,7 @@
     left: calc(50% - var(--circle-size) / 2);
 
     transform-origin: center center;
-    animation: moveVertical 30s ease infinite;
+    animation: moveVertical 15s ease infinite;
 
     opacity: 1;
 }
@@ -148,7 +172,7 @@
     left: calc(50% - var(--circle-size) / 2);
 
     transform-origin: calc(50% - 400px);
-    animation: moveInCircle 20s reverse infinite;
+    animation: moveInCircle 10s reverse infinite;
 
     opacity: 1;
 }
@@ -164,7 +188,7 @@
     left: calc(50% - var(--circle-size) / 2 - 500px);
 
     transform-origin: calc(50% + 400px);
-    animation: moveHorizontal 20s infinite;
+    animation: moveHorizontal 10s infinite;
 
     opacity: 1;
 }
@@ -180,7 +204,7 @@
     left: calc(50% - var(--circle-size) / 2);
 
     transform-origin: calc(50% + 400px);
-    animation: moveInCircle 40s linear infinite;
+    animation: moveInCircle 20s linear infinite;
 
     opacity: 1;
 }

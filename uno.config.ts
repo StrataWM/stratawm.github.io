@@ -6,7 +6,7 @@ export default defineConfig({
         ['bg-rosewater', {background: "#f5e0dc"}],
         ['bg-flamingo', {background: "#f2cdcd"}],
         ['bg-pink', {background: "#f2cdcd"}],
-        ['bg-mauve', {background: "#f2cdcd"}],
+        ['bg-mauve', {background: "#cba6f7"}],
         ['bg-red', {background: "#f38ba8"}],
         ['bg-maroon', {background: "#eba0ac"}],
         ['bg-peach', {background: "#fab387"}],
