@@ -60,15 +60,15 @@
 
 @keyframes moveHorizontal {
     0% {
-        transform: translateX(-50%) translateY(-10%);
+        transform: translateX(-50%) translateY(-30%);
     }
 
     50% {
-        transform: translateX(50%) translateY(10%);
+        transform: translateX(50%) translateY(30%);
     }
 
     100% {
-        transform: translateX(-50%) translateY(-10%);
+        transform: translateX(-50%) translateY(-30%);
     }
 }
 
@@ -87,7 +87,7 @@
 }
 
 .gradients-cont {
-    filter: url(#_svg-filter) blur(136px);
+    filter: url(#_svg-filter) blur(144px);
     width: 100%;
     height: 100%;
 }
@@ -135,7 +135,7 @@
     left: calc(50% - var(--circle-size) / 2 - 500px);
 
     transform-origin: calc(50% + 400px);
-    animation: moveInCircle 20s reverse infinite;
+    animation: moveHorizontal 20s infinite;
 
     opacity: 1;
 }
@@ -151,7 +151,7 @@
     left: calc(50% - var(--circle-size) / 2);
 
     transform-origin: calc(50% + 400px);
-    animation: moveHorizontal 40s linear infinite;
+    animation: moveInCircle 40s linear infinite;
 
     opacity: 1;
 }
