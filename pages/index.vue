@@ -26,7 +26,7 @@
                 </div>
                 <div class="flex flex-col items-center justify-center mt-32 z-50 select-none">
                     <span
-                        class="fg-text text-4xl font-inter font-500 text-wrap w-[70%] sm:w-[90%] text-center line-height-[3rem]">
+                        class="fg-text text-4xl font-inter font-500 text-wrap w-[95%] sm:w-[90%] text-center line-height-[3rem]">
                         <span class="fg-red font-bold">Cutting-Edge</span>,
                         <span class="fg-red font-bold">Robust</span> and
                         <span class="fg-red font-bold">Sleek</span>
