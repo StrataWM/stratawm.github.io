@@ -26,7 +26,7 @@
                 </div>
                 <div class="flex flex-col items-center justify-center mt-32 z-50 select-none">
                     <span
-                        class="fg-text text-4xl font-inter font-500 text-wrap w-[95%] sm:w-[90%] text-center line-height-[3rem]">
+                        class="fg-text text-3xl font-inter font-500 text-wrap w-[95%] md:w-[70%] md:text-4xl text-center line-height-[3rem]">
                         <span class="fg-red font-bold">Cutting-Edge</span>,
                         <span class="fg-red font-bold">Robust</span> and
                         <span class="fg-red font-bold">Sleek</span>
@@ -43,14 +43,14 @@
                         </a>
                     </div>
                     <div
-                        class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#cba6f7] hover:bg-mauve w-[220px] mr-4 sm:mb-4 md:mb-0">
+                        class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#cba6f7] hover:bg-mauve w-[220px] mr-4 mb-4 md:mb-0">
                         <a href="https://stratawm.github.io/strata"
                             class="w-full h-full decoration-none fg-mauve transition ease-in-out duration-350 font-inter text-lg font-500 flex items-center justify-center rounded-xl hover:fg-crust">
                             <Icon name="material-symbols:book-2" size="32px" class="mr-2"></Icon>Documentation
                         </a>
                     </div>
                     <div
-                        class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#cdd6f4] hover:bg-text w-[220px]">
+                        class="bg-crust h-[56px] flex items-center transition ease-in-out duration-350 justify-center rounded-xl border-solid border-2 border-[#cdd6f4] hover:bg-text w-[220px] mb-4 md:mb-0">
                         <a href="https://stratawm.github.io/strata"
                             class="w-full h-full decoration-none fg-text transition ease-in-out duration-350 font-inter text-lg font-500 flex items-center justify-center rounded-xl hover:fg-crust">
                             <Icon name="mdi:github" size="32px" class="mr-2"></Icon>GitHub
