@@ -66,6 +66,12 @@
                 <div
                     class="w-[100%] h-[200px] md:h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl">
                 </div>
+                <div
+                    class="w-[100%] h-[200px] md:h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl">
+                </div>
+                <div
+                    class="w-[100%] h-[200px] md:h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl">
+                </div>
             </div>
         </div>
     </div>
