@@ -64,13 +64,13 @@
             <div
                 class="w-full h-full absolute top-0 left-0 flex flex-col gap-12 py-16 px-[5%] md:px-[10%] items-center">
                 <div
-                    class="w-[100%] h-[200px] md:h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl">
+                    class="w-[100%] h-[200px] md:h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl flex justify-center px-10">
                 </div>
                 <div
-                    class="w-[100%] h-[200px] md:h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl">
+                    class="w-[100%] h-[200px] md:h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl flex justify-center px-10">
                 </div>
                 <div
-                    class="w-[100%] h-[200px] md:h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl">
+                    class="w-[100%] h-[200px] md:h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl flex justify-center px-10">
                 </div>
             </div>
         </div>
