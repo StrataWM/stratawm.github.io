@@ -7,7 +7,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "npm run docs:build && gh-pages -d docs/.vitepress/dist -b docs"
+    "deploy": "npm run build && gh-pages -d ./output -b pages"
   },
   "dependencies": {
     "nuxt": "^3.10.3",
