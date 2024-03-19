@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-full flex flex-col  b-blue border-solid border-4 relative overflow-hidden">
+    <div class="w-full h-full flex flex-col flex-grow b-blue border-solid border-4 relative">
         <div class="w-full min-h-screen relative select-none">
             <div class="gradient-bg">
                 <svg xmlns="http://www.w3.org/2000/svg">
