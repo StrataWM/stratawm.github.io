@@ -64,17 +64,17 @@
             <div
                 class="w-full h-full absolute top-0 left-0 flex flex-col gap-12 py-16 px-[5%] md:px-[10%] items-center">
                 <div
-                    class="w-[100%] h-[200px] md:max-h[300px] md:min-h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl flex justify-center px-10 overflow-hidden">
+                    class="w-[100%] h-[200px] md:max-h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl flex justify-center px-10 overflow-hidden">
                     <NuxtImg src="/rust.svg" width="340px" />
                     <div class="flex flex-col w-full h-full p-8 ml-4 justify-center items-start">
                         <span></span>
                     </div>
                 </div>
                 <div
-                    class="w-[100%] h-[200px] md:max-h[300px] md:min-h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl flex justify-center px-10 overflow-hidden">
+                    class="w-[100%] h-[200px] md:max-h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl flex justify-center px-10 overflow-hidden">
                 </div>
                 <div
-                    class="w-[100%] h-[200px] md:max-h[300px] md:min-h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl flex justify-center px-10 overflow-hidden">
+                    class="w-[100%] h-[200px] md:max-h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl flex justify-center px-10 overflow-hidden">
                 </div>
             </div>
         </div>
@@ -237,7 +237,7 @@
 <style scoped>
 .grid-bkg {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image:
         linear-gradient(to right, rgba(88, 0, 255, 0.4) 2px, transparent 2px),
         linear-gradient(to bottom, rgba(88, 0, 255, 0.4) 2px, transparent 2px);
