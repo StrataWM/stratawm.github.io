@@ -66,9 +66,9 @@
                 <div
                     class="w-[100%] h-full bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl flex justify-center overflow-hidden">
                     <NuxtImg src="/rust.svg" class="min-w-[35%] max-w-[35%] ml-4" />
-                    <div class="flex flex-col w-full h-full p-6 ml-4 items-center justify-start bg-crust">
+                    <div class="flex flex-col w-full h-full p-6 ml-4 items-start justify-start bg-">
                         <span class="text-[#5800FF] text-4xl font-inter font-semibold">Crafted in Rust!</span>
-                        <span class="fg-subtext1 font-inter font-500 mt-4 ">Strata is written in the <a
+                        <span class="fg-text font-inter font-500 mt-4 ">Strata is written in the <a
                                 href="https://rust-lang.org" class="decoration-none fg-red font-bold">Rust</a>
                             programming language.</span>
                     </div>
