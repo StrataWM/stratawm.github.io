@@ -62,11 +62,11 @@
         <div class="w-full min-h-screen h-full relative select-auto">
             <div class="grid-bkg" />
             <div
-                class="w-full h-full absolute top-0 left-0 flex flex-col gap-12 py-16 px-[5%] md:px-[10%] items-center">
+                class="w-full h-full absolute top-0 left-0 flex flex-col gap-12 py-16 px-[5%] md:px-[10%] lg:px-[20%] xl:px-[25%] 2xl:px-[30%] xxxl-px-[32%] items-center">
                 <div
-                    class="w-[100%] h-full bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl flex justify-center px-10 overflow-hidden">
-                    <NuxtImg src="/rust.svg" width="340px" />
-                    <div class="flex flex-col w-full h-full p-8 ml-4 justify-center items-start">
+                    class="w-[100%] h-full bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl flex justify-center overflow-hidden">
+                    <NuxtImg src="/rust.svg" class="min-w-[35%] max-w-[35%] ml-4" />
+                    <div class="flex flex-col w-full h-full p-8 ml-4 justify-center items-start bg-crust">
                         <span></span>
                     </div>
                 </div>
