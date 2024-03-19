@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-auto flex flex-col flex-grow b-blue border-solid border-4 ">
+    <div class="w-full h-auto flex flex-col flex-grow">
         <div class="w-full min-h-screen relative select-none">
             <div class="gradient-bg">
                 <svg xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-full min-h-screen h-full relative select-auto b-red border-solid border-4">
+        <div class="w-full min-h-screen h-full relative select-auto">
             <div class="grid-bkg" />
             <div
                 class="w-full h-full absolute top-0 left-0 flex flex-col gap-12 py-16 px-[5%] md:px-[10%] items-center">

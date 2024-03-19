@@ -6,7 +6,7 @@ useHead({
 
 <template>
   <div
-    class="antialiased w-screen h-screen flex flex-col bg-mantle overflow-x-hidden overflow-y-auto b-green border-solid border-4 relative">
+    class="antialiased w-screen h-screen flex flex-col bg-mantle overflow-x-hidden overflow-y-auto relative">
     <Navbar />
     <NuxtPage />
   </div>
