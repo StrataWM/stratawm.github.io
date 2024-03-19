@@ -59,12 +59,12 @@
                 </div>
             </div>
         </div>
-        <div class="w-full h-full relative select-auto">
+        <div class="w-full h-full relative select-auto b-red border-solid border-4">
             <div class="grid-bkg" />
             <div
                 class="w-full h-full absolute top-0 left-0 flex flex-col gap-12 py-16 px-[5%] md:px-[10%] items-center">
                 <div
-                    class="w-[100%] h-[200px] md:max-h[300px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl flex justify-center px-10 overflow-hidden">
+                    class="w-[100%] h-[200px] md:min-h[1000px] bg-transparent backdrop-filter backdrop-blur-[6px] backdrop-saturate-150 border-solid border-2 border-[#313244] rounded-xl flex justify-center px-10 overflow-hidden">
                     <NuxtImg src="/rust.svg" width="340px" />
                     <div class="flex flex-col w-full h-full p-8 ml-4 justify-center items-start">
                         <span></span>
